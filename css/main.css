@@ -1,0 +1,43 @@
+/* CSS Document */
+* {
+  box-sizing: border-box; }
+
+:root {
+  --nav-width: 10vw; }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  padding-left: var(--nav-width); }
+
+nav {
+  position: fixed;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  padding: 2em;
+  background: #333;
+  color: white; }
+  nav a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    margin: 3em 0; }
+
+section {
+  height: 100vh;
+  width: 100%;
+  color: black;
+  font-size: 4rem;
+  padding: 2em; }
+
+#one {
+  background: #C3F73A; }
+
+#two {
+  background: #95E06C; }
+
+#three {
+  background: #68B684; }
